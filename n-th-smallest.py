@@ -3,7 +3,9 @@ import unittest
 
 def nth_smallest(arr, pos):
     # Your code here
-    pass
+    arr.sort()
+    return arr[pos-1]
+    
 
 
 """

@@ -2,9 +2,8 @@ import unittest
 
 
 def fix_the_meerkat(arr):
-    # Your solution here
-    pass
-
+    return arr[::-1] #or
+    return [x for x in reversed(arr)]
 
 """
 These lines below are for testing purposes. Please, don't touch them :)

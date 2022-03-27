@@ -2,6 +2,11 @@ import unittest
 
 
 def my_languages(results):
+    res_list = []
+    for key, value in results.items():
+        if value >= 60:
+            res_list.append(key)
+    return sorted(res_list, key = lambda lang: results[lang], reverse = True)
     # Your solution here
     pass
 
